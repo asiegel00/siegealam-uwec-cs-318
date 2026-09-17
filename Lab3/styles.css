@@ -1,0 +1,54 @@
+p{
+    color:#f54298;
+}
+h1, h2, h3{
+    color:white;
+}
+main{
+    background-color:pink;
+}
+ul{
+    color:#f54298;
+}
+p{
+    margin:1rem;
+    margin:1rem 2 rem;
+    margin:1rem 2rem 3rem;
+    margin:1rem 2rem 3rem 4rem;
+}
+h2{
+    margin:1rem;
+    margin:1rem 2rem;
+    margin:1rem 2rem 3rem;
+    margin:1rem 2rem 3rem 4rem;
+}
+p{
+    padding:1rem;
+    padding:1rem 2rem;
+    padding:1rem 2rem 3rem;
+    padding:1rem 2rem 3rem 4rem;
+}
+h2{
+    padding:1rem;
+    padding:1rem 2rem;
+    padding:1rem 2rem 3rem;
+    padding:1rem 2rem 3rem 4rem;
+}
+ul{
+    margin:1rem;
+    margin:1rem 2 rem;
+    margin:1rem 2rem 3rem;
+    margin:1rem 2rem 3rem 4rem;
+}
+ul{
+    padding:1rem;
+    padding:1rem 2rem;
+    padding:1rem 2rem 3rem;
+    padding:1rem 2rem 3rem 4rem;
+}
+h1{
+    text-align:center
+}
+nav{
+    text-align:center
+}
