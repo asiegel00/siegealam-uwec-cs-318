@@ -1,54 +1,38 @@
-p{
-    color:#f54298;
+body{
+    font-family:'Courier New', Courier, monospace;
 }
 h1, h2, h3{
     color:white;
+    margin:1rem;
+    font-size:2rem;
+    font-weight:bold;
+}
+header{
+    background-color:#FCC89B;
+    color:white;
+    font-weight:bold;
 }
 main{
     background-color:pink;
 }
-ul{
+ul,ol{
     color:#f54298;
+    margin:1rem;
+    padding:1rem;
+    font-size:1rem;
 }
 p{
+    color:#f54298;
     margin:1rem;
-    margin:1rem 2 rem;
-    margin:1rem 2rem 3rem;
-    margin:1rem 2rem 3rem 4rem;
-}
-h2{
-    margin:1rem;
-    margin:1rem 2rem;
-    margin:1rem 2rem 3rem;
-    margin:1rem 2rem 3rem 4rem;
-}
-p{
     padding:1rem;
-    padding:1rem 2rem;
-    padding:1rem 2rem 3rem;
-    padding:1rem 2rem 3rem 4rem;
-}
-h2{
-    padding:1rem;
-    padding:1rem 2rem;
-    padding:1rem 2rem 3rem;
-    padding:1rem 2rem 3rem 4rem;
-}
-ul{
-    margin:1rem;
-    margin:1rem 2 rem;
-    margin:1rem 2rem 3rem;
-    margin:1rem 2rem 3rem 4rem;
-}
-ul{
-    padding:1rem;
-    padding:1rem 2rem;
-    padding:1rem 2rem 3rem;
-    padding:1rem 2rem 3rem 4rem;
+    font-size:1rem;
 }
 h1{
     text-align:center
 }
 nav{
     text-align:center
+}
+img{
+    max-width:100%;
 }
