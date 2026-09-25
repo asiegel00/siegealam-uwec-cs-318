@@ -1,0 +1,59 @@
+body{
+    font-family: "Georgia", serif;
+    color:#241c13;
+}
+main{
+    background-image:url(images/simple-background.avif);
+    background-size: contain;
+    background-position: left;
+    background-repeat: repeat-y;
+    padding:1rem;
+    max-width:60rem;
+    margin:1rem auto;
+}
+header{
+    background-color: #809e5a;
+    color:#fff;
+}
+header>nav>a{
+    background-color: #fff;
+    color:#809e5a;
+    text-decoration: none;
+    padding:1rem;
+    display:inline-block;
+    border:1px solid transparent;
+}
+nav a:hover{
+    background-color: #41522e;
+    color:#fff;
+    border:1px solid #fff;
+}
+h2{
+    background-color: #fff;
+    color:#41522e;
+    padding:1rem;
+    margin:0 0 1rem;
+}
+h3{
+    background-color: #fff;
+    color:#41522e;
+    padding:1rem;
+    margin:0 0 1rem;
+}
+body>footer>a{
+    background-color: #809e5a;
+    color:#fff;
+    padding:1rem;
+    text-align:center;
+    border:1px solid transparent;
+}
+body>footer>a:hover{
+    background-color: #41522e;
+    color:#fff;
+    border:1px solid #fff;
+}
+article>img{
+    max-width:100%;
+    width:30rem;
+    margin: 0 1rem 1rem 0;
+}
