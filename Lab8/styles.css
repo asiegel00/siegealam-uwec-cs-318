@@ -65,7 +65,7 @@ article{
 article.show{
     display:block;
 }
-section>span{
+section>span{/*Change the > to a space because the span is in a h2 in the section*/
     position:absolute;
     top:15rem;
     font-size:2rem;
@@ -102,10 +102,10 @@ span.rotate{
         font-size:3rem;
         background-position:center;
     }
-    section>span{
+    section>span{/*Change the > to a space because the span is in a h2 in the section*/
         font-size:4rem;
         top:26rem;
-        left:calc(50% - -22px);
+        left:calc(50% - -22px);/*Delete the - infront of 22*/
     }
     nav{
         position:absolute;
