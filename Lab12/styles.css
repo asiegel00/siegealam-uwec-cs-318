@@ -91,7 +91,7 @@ input[type=reset]{
     background-color: black;
     color: yellowgreen;
 }
-input:focus[type=submit]{
+input:hover[type=submit]{
     background-color: black;
     color: yellowgreen;
 }
