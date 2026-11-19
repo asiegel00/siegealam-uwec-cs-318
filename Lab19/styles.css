@@ -38,14 +38,14 @@ header nav a{
     border: 1px solid #5bc0b4;
 }
 header{
-    display: flex;
-    align-items: flex-start;
     justify-content: space-between;
     background-color: #0b132b85;
     position: fixed;
     z-index: 1;
     top: 0;
     width: 100%;
+    display: flex;
+    align-items: center;
 }
 header nav.show{
     left: 0;
@@ -166,16 +166,54 @@ footer{
         text-decoration: underline;
     }
     .social{
-        padding: right 2rem;
+        padding-right: 2rem;
     }
     h1{
-        margin: left -16rem;
+        margin-left: -16rem;
     }
     .call-to-action{
-        padding: 20rem calc((100% - 900px)/2) 5rem;
+        padding: 20rem calc((100% - 900px)/2)5rem;
     }
     .call-to-action h2{
         font-size: 5rem;
-        margin: bottom 1rem;
+        margin-bottom: 1rem;
+    }
+    p, h3{
+        max-width: 900px;
+        margin: .5rem auto;
+    }
+    .gallery div{
+        max-width: 900px;
+        margin: 1rem auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .gallery img{
+        display: block;
+        width: 31%;
+        margin: .5rem;
+        padding: 0;
+    }
+    .gallery .panorama{
+        width: 100%;
+    }
+    .routes{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 25px auto;
+        grid-gap: 1rem;
+    }
+    .routes h3{
+        grid-area: 1 2 2 3;
+    }
+    form{
+        max-width: 500px;
+        margin: 1rem auto;
+    }
+    footer{
+        justify-content: space-between;
+        padding: .5rem 1rem;
     }
 }
